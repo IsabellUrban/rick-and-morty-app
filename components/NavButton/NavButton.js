@@ -7,5 +7,6 @@ export function Buttons(text, onClick) {
   newButton.classList.add("button");
   newButton.textContent = text;
   newButton.addEventListener("click", onClick);
+  navigation.append(newButton);
   return newButton;
 }

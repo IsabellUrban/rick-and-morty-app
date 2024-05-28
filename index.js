@@ -1,4 +1,5 @@
 import { CharacterCard } from "./components/CharacterCard/CharacterCard.js";
+import { Buttons } from "./components/NavButton/NavButton.js";
 
 console.clear();
 
@@ -75,3 +76,5 @@ searchBar.addEventListener("submit", (event) => {
   PageNumbers();
   event.target.reset();
 });
+
+Buttons();
